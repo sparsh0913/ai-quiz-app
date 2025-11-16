@@ -264,7 +264,8 @@ generateBtn.addEventListener("click", async () => {
     console.log("🧠 Requesting AI quiz for:", topic);
 
     // Fetch from your backend route
-    const res = await fetch("http://localhost:3000/generate-quiz", {
+    /* const res = await fetch("http://localhost:3000/generate-quiz" */
+    const res = await fetch("https://ai-quiz-app-zwq1.onrender.com/generate-quiz", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ topic }),
