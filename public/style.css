@@ -455,6 +455,7 @@ input,button{
   border: 2px solid #ddd;
   border-radius: 8px;
   outline: none;
+   margin-bottom: 12px;
 }
 
 .ai-section input:focus {
