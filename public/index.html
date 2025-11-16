@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+
+ <!-- ----LOGIN SCREEN--------- -->
+   <div class="screen active" id="login-screen">
+    <h1>Welcome to Quiz App</h1>
+    <p>Enter your name to begin</p>
+    <br>
+    <input type="text" id="username-input" placeholder="Enter your name">
+  <br> <br> <br>
+    <button id="login-btn">Start</button>
+   </div>
+
+   <!-- ----START SCREEN--------- -->
+      <div class="screen" id="start-screen">
+         <h1> Quiz Time!</h1>
+         <p> Test your knowledge with these fun questions</p>
+           <button id="start-btn"> Select Topic</button> 
+
+
+           <div class="ai-section">
+    <h3>🤖 Or Generate a Quiz with AI</h3>
+    <input type="text" id="topicInput" placeholder="Enter quiz topic...">
+    <button id="generateBtn">Generate AI Quiz</button>
+  </div>
+    </div>
+
+
+    <!-- ----QUIZ SCREEN--------- -->
+       <div class="screen" id="quiz-screen">
+         <div class="quiz-header">
+           <h1 id="question-text">Question goes here</h1>
+        </div>
+       <div class="quiz-info">
+     <p>
+        Question <span id="current-question">0</span>  of <span id="total-question">5</span>
+    </p>
+    <p><b>Time left:</b><span id="timer"><b>15</b></span>s</p>
+     <p>
+        Score: <span id="score">0</span>
+    </p>
+    </div>
+    <div class="answers-container" id="answers-container">
+    </div>
+<div class="progress-bar">
+  <div class="progress" id="progress"></div>
+  <br>
+   <button id="quit-btn" class="quit-btn">Quit Quiz</button>
+</div>
+
+</div>
+<!-- ----RESULT SCREEN--------- -->
+<div class=" screen result-screen" id="screen">
+<h1>Quiz Results</h1>
+<div class="result-info">
+<p>
+  You scored <span id="final-score">0</span> out of <span id="max-score">5</span>
+</p>
+<div id="result-message">Good job! </div>
+</div>
+<button id="restart-btn">Restart Quiz</button>
+</div>
+</div>
+
+<!-- DIFFERENT TOPIC screen -->
+
+
+<!-- <div class="screen active" id="topic-screen"> -->
+<div class="topic-container screen" id="topic-screen">
+   <!--  html card-->
+<div class="topic-card" data-topic="html">
+<h3>HTML QUIZ</h3>
+<img src="images/html-logo.webp" alt="html-logo">
+<button class="topic-btn" data-topic="html">Start Quiz</button>
+</div>
+    <!-- css card -->
+<div class="topic-card" data-topic="css">
+<h3>CSS QUIZ</h3>
+<img src="images/css-logo.webp" alt="css-logo">
+<button class="topic-btn" data-topic="css">Start Quiz</button>
+</div>
+   <!--  javascript card -->
+     <div class="topic-card" data-topic="js">
+<h3>Javascript QUIZ</h3>
+<img src="images/js-logo.webp" alt="css-logo">
+<button class="topic-btn" data-topic="js">Start Quiz</button>
+</div> 
+
+</div>
+
+    <script src ="script.js"></script>
+</body>
+</html>

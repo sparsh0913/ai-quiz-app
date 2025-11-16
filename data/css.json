@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Which property is used to change text color in CSS?",
+    "answers": [
+      { "text": "font-color", "correct": false },
+      { "text": "color", "correct": true },
+      { "text": "text-color", "correct": false },
+      { "text": "foreground", "correct": false }
+    ]
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "answers": [
+      { "text": "font-style", "correct": false },
+      { "text": "text-size", "correct": false },
+      { "text": "font-size", "correct": true },
+      { "text": "text-style", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you select an element with id 'header'?",
+    "answers": [
+      { "text": "#header", "correct": true },
+      { "text": ".header", "correct": false },
+      { "text": "header", "correct": false },
+      { "text": "*header", "correct": false }
+    ]
+  },
+  {
+    "question": "Which value of position property makes an element fixed on screen?",
+    "answers": [
+      { "text": "static", "correct": false },
+      { "text": "fixed", "correct": true },
+      { "text": "relative", "correct": false },
+      { "text": "absolute", "correct": false }
+    ]
+  },
+  {
+    "question": "What does 'z-index' control in CSS?",
+    "answers": [
+      { "text": "The text size", "correct": false },
+      { "text": "The layering order of elements", "correct": true },
+      { "text": "The element color", "correct": false },
+      { "text": "The border radius", "correct": false }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "answers": [
+      { "text": "var", "correct": false },
+      { "text": "let", "correct": false },
+      { "text": "const", "correct": false },
+      { "text": "All of the above", "correct": true }
+    ]
+  },
+  {
+    "question": "What will typeof null return?",
+    "answers": [
+      { "text": "'null'", "correct": false },
+      { "text": "'object'", "correct": true },
+      { "text": "'undefined'", "correct": false },
+      { "text": "'number'", "correct": false }
+    ]
+  },
+  {
+    "question": "Which method is used to write text to the console?",
+    "answers": [
+      { "text": "console.print()", "correct": false },
+      { "text": "log.console()", "correct": false },
+      { "text": "console.log()", "correct": true },
+      { "text": "print.console()", "correct": false }
+    ]
+  },
+  {
+    "question": "Which symbol is used for comments in JavaScript?",
+    "answers": [
+      { "text": "// for single-line, /* */ for multi-line", "correct": true },
+      { "text": "# for single-line", "correct": false },
+      { "text": "<!-- -->", "correct": false },
+      { "text": "// only for multi-line", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a JavaScript data type?",
+    "answers": [
+      { "text": "Number", "correct": false },
+      { "text": "String", "correct": false },
+      { "text": "Boolean", "correct": false },
+      { "text": "Character", "correct": true }
+    ]
+  }
+]
